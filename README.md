@@ -31,4 +31,4 @@ Guests
 | ----------- | --------- | --------------------------------------------------------------------------- |
 | GET         | /guests   | Get guest list                                                              |
 | GET         | /guest/:id | Guest guest by guest ID                                                    |
-| POST        | /addGuest/:oid | Add new guest                                                          |
+| POST        | /addGuest/:pid | Add new guest                                                          |
