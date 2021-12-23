@@ -1,10 +1,7 @@
 require('dotenv').config()
 /*
 
-  PORT=9000
-  NODE_ENV=development
-  DEV_DATABASE_URL=postgresql://postgres:password@localhost:5432/database_name
-  TESTING_DATABASE_URL=postgresql://postgres:password@localhost:5432/testing_database_name
+  c
 
   Put the above in your .env file. Some adjustments in the connection URLs will be needed:
 
@@ -23,8 +20,12 @@ if (process.env.DATABASE_URL) {
 
 const sharedConfig = {
   client: 'pg',
-  migrations: { directory: './api/data/migrations' },
-  seeds: { directory: './api/data/seeds' },
+  migrations: {
+    directory: './data/migrations'
+  },
+  seeds: {
+    directory: './data/seeds'
+  },
 }
 
 module.exports = {
