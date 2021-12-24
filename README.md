@@ -1,34 +1,34 @@
-Base URL:
-https://bw-potluck-planner-04.herokuapp.com/
+#Base URL:
+`https://bw-potluck-planner-04.herokuapp.com/`
 
 — Endpoints —
 
 Authentication
 | Method      | URL       | Description                                                                 |
 | ----------- | --------- | --------------------------------------------------------------------------- |
-| POST        | /login    | Login as an existing user                                                   |
-| POST        | /register | Register as a new user                                                      |
+| POST        | /auth/login    | Login as an existing user                                                   |
+| POST        | /auth/register | Register as a new user                                                      |
 		
 Users 		
 | Method      | URL       | Description                                                                 |
 | ----------- | --------- | --------------------------------------------------------------------------- |
-| GET         | /users    | Get users                                                                   |
-| POST        | /register | Delete user                                                                 |
+| GET         | /users/users    | Get users                                                                   |
+| POST        | /users/register | Delete user                                                                 |
 
 
 Potlucks
 | Method      | URL       | Description                                                                 |
 | ----------- | --------- | --------------------------------------------------------------------------- |
-| GET         | /potlucks | Get potlucks (events)                                                       |
-| GET         | /potlucks/:id | Delete potlucks by potluck ID                                           |
-| GET         | /potluck  | Get Potlucks (event) info                                                   |
-| PUT         | /potluck/:id | Updates potluck (event) with the chosen ID                               |
-| DELETE      | /potluck/:id | Delete potluck (event) by ID                                             |
+| GET         | /potlucks/potlucks | Get potlucks (events)                                                       |
+| GET         | /potlucks/potlucks/:id | Delete potlucks by potluck ID                                           |
+| GET         | /potlucks/potluck  | Get Potlucks (event) info                                                   |
+| PUT         | /potlucks/potluck/:id | Updates potluck (event) with the chosen ID                               |
+| DELETE      | /potlucks/potluck/:id | Delete potluck (event) by ID                                             |
 
 
 Guests
 | Method      | URL       | Description                                                                 |
 | ----------- | --------- | --------------------------------------------------------------------------- |
-| GET         | /guests   | Get guest list                                                              |
-| GET         | /guest/:id | Guest guest by guest ID                                                    |
-| POST        | /addGuest/:oid | Add new guest                                                          |
+| GET         | /guests/guests   | Get guest list                                                              |
+| GET         | /guests/guest/:id | Guest guest by guest ID                                                    |
+| POST        | /guests/addGuest/:pid | Add new guest                                                          |
