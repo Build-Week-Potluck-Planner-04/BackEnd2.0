@@ -32,3 +32,4 @@ Guests
 | GET         | /guests/guests   | Get guest list                                                              |
 | GET         | /guests/guest/:id | Guest guest by guest ID                                                    |
 | POST        | /guests/addGuest/:pid | Add new guest                                                          |
+                                                |
