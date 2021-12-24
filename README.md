@@ -1,4 +1,4 @@
-#Base URL:
+Base URL:
 `https://bw-potluck-planner-04.herokuapp.com/`
 
 — Endpoints —
@@ -32,4 +32,4 @@ Guests
 | GET         | /guests/guests   | Get guest list                                                              |
 | GET         | /guests/guest/:id | Guest guest by guest ID                                                    |
 | POST        | /guests/addGuest/:pid | Add new guest                                                          |
-                                                |
+                                              
